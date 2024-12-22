@@ -30,8 +30,8 @@ class _AnimatedShopingCartState extends State<AnimatedShopingCart> {
               color: isExpanded ? Colors.green :  Colors.blue,
               borderRadius: BorderRadius.circular(isExpanded? 30 : 10.0),
             ),
-            duration: Duration(milliseconds: 500),
-            child: isExpanded ? Row(
+            duration: const Duration(milliseconds: 500),
+            child: isExpanded ? const Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 Icon(
@@ -40,7 +40,7 @@ class _AnimatedShopingCartState extends State<AnimatedShopingCart> {
                 ),
                 Text('Added to card', style: TextStyle(color: Colors.white),)
               ],
-            ) :  Icon(
+            ) :  const Icon(
               Icons.shopping_cart,
               color: Colors.white,
             ),
