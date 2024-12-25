@@ -15,11 +15,11 @@ class _AnimatedColorPalleteState extends State<AnimatedColorPallete> {
   
   static List<Color> generateRandomPallete() {
     final random = Random();
-    return List.generate(5, (_) => Color.fromRGBO(
+    return List.generate(6, (_) => Color.fromRGBO(
       random.nextInt(256),
       random.nextInt(256),
       random.nextInt(256),
-      1,
+      .5,
     ));
   }
   void regeneratePallete() {
