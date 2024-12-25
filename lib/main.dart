@@ -3,6 +3,9 @@ import 'package:animation_tutorial/implicit_animations/animated_images.dart';
 import 'package:animation_tutorial/implicit_animations/animated_shoping_cart.dart';
 import 'package:flutter/material.dart';
 
+import 'implicit_animations/animated_icon_switcher.dart';
+import 'implicit_animations/animated_tween.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -18,7 +21,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.yellowAccent),
         useMaterial3: true,
       ),
-      home: AnimatedImagePalette(),
+      home: PulsatingCircleAnimation(),
     );
   }
 }
