@@ -1,3 +1,5 @@
+import 'package:animation_tutorial/explicit_animation/list_animation.dart';
+import 'package:animation_tutorial/explicit_animation/login_screen_animation.dart';
 import 'package:animation_tutorial/implicit_animations/animated_align_example.dart';
 import 'package:animation_tutorial/implicit_animations/animated_color_pallete.dart';
 import 'package:animation_tutorial/implicit_animations/animated_images.dart';
@@ -26,7 +28,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.yellowAccent),
         useMaterial3: true,
       ),
-      home: UpdateProfilePicture(),
+      home: ListAnimation(),
     );
   }
 }
