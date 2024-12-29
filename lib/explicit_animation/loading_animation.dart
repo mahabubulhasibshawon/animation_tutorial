@@ -28,6 +28,7 @@ class _RadialProgressAnimationState extends State<RadialProgressAnimation>
       duration: const Duration(milliseconds: 1000),
     );
 
+    // tween
     animation = Tween(begin: 0.0, end: widget.progress).animate(controller);
   }
 
